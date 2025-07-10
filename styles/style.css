@@ -234,6 +234,7 @@ nav ul li a{
 /* newsletter section start */
 .newsletter{
     display: flex;
+    justify-content: space-between;
     padding: 71px 0px;
 }
 
@@ -241,6 +242,37 @@ nav ul li a{
     font-size: 97px;
     font-weight: bold;
 }
+
+.newsletter form input[type="email"], form input[type="text"], form textarea{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 10px 0px 19px 0px;
+}
+
+.same{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.submit-btn{
+    padding: 19px 101px;
+}
+
+.newsletter-tittle{
+    max-width: 528px;
+}
+
+.form-section{
+    width: 497px;
+}
+
+
 
 
 
@@ -284,3 +316,4 @@ footer{
     text-decoration: none;
 
 }
+
