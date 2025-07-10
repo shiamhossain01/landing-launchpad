@@ -17,6 +17,7 @@ body{
     padding: 12px 36px;
     border-radius: 10px;
     background-color: #4E47FF;
+    cursor: pointer;
 }
 
 .secondary-width{
