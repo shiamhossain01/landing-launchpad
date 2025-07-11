@@ -20,6 +20,14 @@ body{
     cursor: pointer;
 }
 
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .secondary-width{
     max-width: 1140px;
     margin: 0 auto;
@@ -196,7 +204,6 @@ nav ul li a{
 
 .review-contant-card p{
     font-size: 15px;
-    /* margin: 0px 0px 24px 0px; */
 
 }
 /* review section end */
