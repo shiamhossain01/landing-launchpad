@@ -70,6 +70,10 @@ nav ul li a{
     color: #FFFFFF;
 
 }
+
+.naver a{
+    text-decoration: none;
+}
 /* nav styles end */
 
 
@@ -332,5 +336,9 @@ footer{
     color: #8987A1;
     text-decoration: none;
 
+}
+
+.footer-container li a:hover{
+    color: #4E47FF;
 }
 
