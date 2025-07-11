@@ -20,6 +20,12 @@ body{
     cursor: pointer;
 }
 
+.btn-primary:hover{
+    background-color: black;
+    transition: 1s all ease-in-out;
+
+}
+
 
 
 .inter{
