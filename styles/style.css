@@ -161,7 +161,7 @@ nav ul li a{
 .review-name{
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
 }
 .review-name img{
     width: 50px;
@@ -176,7 +176,7 @@ nav ul li a{
 }
 
 .review-description p{
-    margin: 4px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     color: #B3B3B3;
     font-size: 12px;
 }
@@ -196,7 +196,7 @@ nav ul li a{
 
 .review-contant-card p{
     font-size: 15px;
-    margin: 0px 0px 24px 0px;
+    /* margin: 0px 0px 24px 0px; */
 
 }
 /* review section end */
@@ -245,6 +245,7 @@ nav ul li a{
 }
 
 .newsletter form input[type="email"], form input[type="text"], form textarea{
+    box-sizing: border-box;
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
     width: 100%;
